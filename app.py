@@ -10,7 +10,7 @@ def home():
 
 @app.route('/sitemap')
 def sitemap():
-    return redirect("https://aneeshpavan.github.io/QR-Code-Generator/sitemap.xml")
+    return redirect("https://github.com/DVTkrishna/QR-Code-Generator.git/sitemap.xml")
 
 @app.route('/result',methods=['POST', 'GET'])
 def result():
